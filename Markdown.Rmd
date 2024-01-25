@@ -31,7 +31,8 @@ Data <- data.frame(x, y)
 # make ggplot 
 library(ggplot2)
 ggplot(Data, aes(x = x, y=y)) +
-         geom_point()
+  geom_point(colour = "pink") +
+  theme_bw()
 ```
 
 ### A map of cat distribution
